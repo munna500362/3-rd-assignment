@@ -30,8 +30,8 @@
       <nav>
         <div class="navbar flex flex-1  md:bg-[#F85559] mt-4 md:mt-6 lg:mt-12 px-4 md:px-6 lg:px-12 md:py-5 lg:py-8 md:rounded-[400px] lg:rounded-[600px]">
           
-          <div class="navbar-start flex-1 hidden lg:flex">
-            <ul class="text-xl text-[#fff] font-medium gap-5 lg:gap-10 menu-horizontal px-1">
+          <div class="navbar-start flex-1 hidden md:flex">
+            <ul class="text-base lg:text-xl text-[#fff] font-medium gap-4 lg:gap-10 menu-horizontal px-1">
               <li><a>Home</a></li>
               <li><a>About Us</a></li>
               <li><a>Shop</a></li>
@@ -39,17 +39,17 @@
             </ul>
           </div>
           
-          <div class="navbar flex justify-between flex-1 ">
+          <div class="navbar flex flex-1  justify-between w-auto ">
             <div class="flex justify-between ">
               <div class="flex  items-center gap-2 md:gap-4 ">
-                <img class="w-[15px] md:w-[54px]" src="B8A3-fruit-brust-main/images/logo.png" alt="">
+                <img class="w-[15px] md:w-[30px] lg:w-[54px]" src="B8A3-fruit-brust-main/images/logo.png" alt="">
                 <a class="text-black md:text-[#fff] text-2xl md:text-3xl lg:text-4xl font-bold">Fruit Burst</a>
               </div>
               <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                <label tabindex="0" class="btn btn-ghost md:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box  w-52">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-2 z-[1] p-2 shadow rounded-box  w-52">
                   <li><a>Home</a></li>
                   <li><a>About Us</a></li>
                   <li><a>Shop</a></li>
@@ -67,8 +67,8 @@
             
           </div>
          
-          <div class="navbar-end flex-1 hidden lg:flex  md:gap-20  ">
-            <div class="flex flex-1 justify-between gap-5 bg-[#fff]  py-5 px-5 md:rounded-[400px] lg:rounded-[600px]">
+          <div class="navbar-end flex-1 hidden md:flex  md:gap-20  ">
+            <div class="flex flex-1 justify-between gap-2 lg:gap-5 bg-[#fff]  py-5 px-5 md:rounded-[400px] lg:rounded-[600px]">
               <button class="text-black  capitalize">Search here </button>
               <span>
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -87,13 +87,13 @@
         <div class="carousel w-full rounded-lg mt-12">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="./B8A3-fruit-brust-main/images/banner1.png" class="w-full" />
-          <div class="absolute container mx-auto transform translate-y-24 text-center space-y-5  ">
-            <h1 class="text-[#fff] text-6xl font-extrabold">Exotic tastes at your 
+          <div class="absolute container mx-auto transform translate-y-6 md:translate-y-1/2 lg:translate-y-24 text-center space-y-2 md:space-y-3 lg:space-y-5  ">
+            <h1 class="text-[#fff] text-2xl md:text-4xl lg:text-6xl font-extrabold">Exotic tastes at your 
               <br>
             doorstep</h1>
-            <p class="text-[#fff] text-xl font-medium">We supply highly quality organic products</p>
+            <p class="text-[#fff] text-sm md:text-xl font-medium">We supply highly quality organic products</p>
             
-            <button class=" text[#FFF] text-xl font-bold bg-[#F85559] rounded-lg px-8 py-5 mt-12 "> Shop All</button>
+            <button class=" text[#FFF] text-base md:text-xl font-bold bg-[#F85559] rounded-lg px-2 md:px-4 lg:px-8 py-2 md:py-5 mt-6 md:mt-12 "> Shop All</button>
           </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
              
@@ -125,27 +125,28 @@
           </div> -->
         </div>
         <!-- food sectin -->
-        <div class="flex justify-between items-center text-center bg-[#fff]  mt-20 py-10 px-20 border rounded-xl shadow-xl	">
-          <div>
-            <img src="B8A3-fruit-brust-main/images/fruit1.png" alt="">
-            <p>grapes</p>
-          </div>
-          <div>
-            <img src="B8A3-fruit-brust-main/images/fruit2.png" alt="">
-            <p>Orange</p>
-          </div>
-          <div>
-            <img src="B8A3-fruit-brust-main/images/fruit3.png" alt="">
-            <p>Mango</p>
-          </div>
-          <div>
-            <img src="B8A3-fruit-brust-main/images/fruit4.png" alt="">
-            <p>Strawberry</p>
-          </div>
-          <div>
-            <img src="B8A3-fruit-brust-main/images/fruit5.png" alt="">
-            <p>Pomegranate</p>
-          </div>
+        <div class="absolute hidden lg:flex justify-between text-center space-x-20  bg-[#fff]   -mt-32  mb-32 mx-20 py-10 px-20 border rounded-xl shadow-xl">
+            <div>
+              <img src="B8A3-fruit-brust-main/images/fruit1.png" alt="">
+              <p>grapes</p>
+            </div>
+            <div>
+              <img src="B8A3-fruit-brust-main/images/fruit2.png" alt="">
+              <p>Orange</p>
+            </div>
+            <div>
+              <img src="B8A3-fruit-brust-main/images/fruit3.png" alt="">
+              <p>Mango</p>
+            </div>
+            <div>
+              <img src="B8A3-fruit-brust-main/images/fruit4.png" alt="">
+              <p>Strawberry</p>
+            </div>
+            <div>
+              <img src="B8A3-fruit-brust-main/images/fruit5.png" alt="">
+              <p>Pomegranate</p>
+            </div>
+          
         </div>
     </header>
 
@@ -154,7 +155,7 @@
       <section>
         <div class=" flex  flex-col md:flex-row sm:space-y-10 md:space-y-1  justify-between  gap-0 md:gap-5 lg:gap-0 ">
           <div class="flex-1 text-center md:text-start">
-              <h2 class="text-[#121212] text-4xl font-bold ">Deal of the day</h2>
+              <h2 class="text-[#121212] text-2xl md:text-4xl font-bold ">Deal of the day</h2>
               <p class="text-base text-[#12121299]">
                 Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
               </p>
@@ -163,7 +164,7 @@
           <div class="flex flex-1 justify-center md:justify-end">
               <div class="flex  items-center md:space-x-5">
                 <div>
-                  <h4 class="text-[#121212] text-4xl font-bold">29</h4>
+                  <h4 class="text-[#121212] text-2xl md:text-4xl font-bold">29</h4>
                   <p>Days</p>
                 </div>
                 
@@ -176,7 +177,7 @@
               
               <div class="flex  items-center space-x-5">
                 <div>
-                  <h4 class="text-[#121212] text-4xl font-bold">15</h4>
+                  <h4 class="text-[#121212] text-2xl  md:text-4xl font-bold">15</h4>
                   <p>Hours</p>
                 </div>
                 
@@ -189,7 +190,7 @@
     
               <div class="flex  items-center space-x-5">
                 <div>
-                  <h4 class="text-[#121212] text-4xl font-bold">25</h4>
+                  <h4 class="text-[#121212] text-2xl md:text-4xl font-bold">25</h4>
                   <p>Minutes</p>
                 </div>
                 
@@ -202,7 +203,7 @@
     
               <div class="flex  items-center space-x-5">
                 <div>
-                  <h4 class="text-[#121212] text-4xl font-bold">08</h4>
+                  <h4 class="text-[#121212] text-2xl md:text-4xl font-bold">08</h4>
                   <p>Seconds</p>
                 </div>
               </div>
@@ -351,8 +352,8 @@
           <div class="hero-overlay bg-opacity-70 "></div>
            <div class="hero-content text-neutral-content  grid">
              <div class="text-center">
-              <h2 class="mb-5 text-[#FFF] text-4xl font-extrabold">Meet the team section</h2>
-              <p class="mb-5 text-base text-[#fff]">Contrary to popular belief, is not simply   random text.
+              <h2 class="mb-5 text-[#FFF] text-3xl md:text-4xl font-extrabold">Meet the team section</h2>
+              <p class="mb-5 text-sm md:text-base text-[#fff]">Contrary to popular belief, is not simply   random text.
                 
                  It has roots in a piece of classical Latin literature from 45 BC,
                  making it over 2000 years old.</p>
@@ -572,7 +573,7 @@
       <!-- chose section -->
       <section>
         <div class= "text-center">
-          <h2 class="text-[#121212] text-4xl font-extrabold">Why Choose Us</h2>
+          <h2 class="text-[#121212] text-3xl md:text-4xl font-extrabold">Why Choose Us</h2>
           <p class="text-[#12121299] text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
             <br> Latin literature from 45 BC, making it over 2000 years old.</p>
        
